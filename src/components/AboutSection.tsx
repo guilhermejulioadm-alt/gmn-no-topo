@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroImage from "@/assets/hero-person.jpg";
+import guilhermeFoto from "@/assets/guilherme-foto.webp";
 
 const AboutSection = () => {
   return (
@@ -13,7 +13,7 @@ const AboutSection = () => {
             transition={{ duration: 0.6 }}
           >
             <img
-              src={heroImage}
+              src={guilhermeFoto}
               alt="Guilherme Júlio"
               className="rounded-2xl shadow-gold-sm w-full max-w-sm mx-auto"
             />
