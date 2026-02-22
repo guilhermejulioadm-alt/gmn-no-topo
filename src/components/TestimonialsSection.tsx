@@ -1,10 +1,14 @@
 import { motion } from "framer-motion";
 import depoimento1 from "@/assets/depoimento-1.webp";
 import depoimento2 from "@/assets/depoimento-2.webp";
+import depoimento3 from "@/assets/depoimento-3.png";
+import depoimento4 from "@/assets/depoimento-4.png";
 
 const testimonials = [
   { src: depoimento1, alt: "Depoimento de aluno sobre o curso GMN no Topo" },
   { src: depoimento2, alt: "Depoimento de aluno sobre conteúdo de SEO" },
+  { src: depoimento3, alt: "Depoimento de aluno sobre didática do curso" },
+  { src: depoimento4, alt: "Depoimento de aluno sobre ranking no Google Meu Negócio" },
 ];
 
 const TestimonialsSection = () => {
