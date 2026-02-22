@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import heroImage from "@/assets/hero-person.jpg";
+import heroImage from "@/assets/guilherme-foto.webp";
 
 const CTA_URL = "https://pay.kiwify.com.br/YK3cDFM";
 
