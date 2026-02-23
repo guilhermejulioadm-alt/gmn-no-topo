@@ -25,7 +25,7 @@ const PricingSection = () => {
             <ShieldCheck className="w-5 h-5 text-primary" />
             Compra 100% segura! Receba seu acesso imediatamente após a compra.
           </p>
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold">
+          <h2 className="text-3xl sm:text-3xl lg:text-4xl font-heading font-bold">
             Esse é o momento de acessar seu material completo
           </h2>
         </motion.div>
