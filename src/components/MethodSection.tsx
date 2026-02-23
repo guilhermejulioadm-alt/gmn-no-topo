@@ -15,7 +15,7 @@ const MethodSection = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold text-center mb-14"
+          className="text-3xl sm:text-3xl lg:text-4xl font-heading font-bold text-center mb-14"
         >
           Como você vai colocar{" "}
           <span className="text-gradient-gold">GMN NO TOPO</span> com o meu método
