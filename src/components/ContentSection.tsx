@@ -20,7 +20,7 @@ const ContentSection = () => {
           viewport={{ once: true }}
           className="text-center max-w-3xl mx-auto mb-14"
         >
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold mb-4">
+          <h2 className="text-3xl sm:text-3xl lg:text-4xl font-heading font-bold mb-4">
             Para extrair o máximo de resultado,{" "}
             <span className="text-gradient-gold">uma empresa precisa estar bem posicionada</span> no Google Meu Negócio.
           </h2>
