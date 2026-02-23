@@ -20,7 +20,7 @@ const ModulesSection = () => {
           viewport={{ once: true }}
           className="text-center mb-14"
         >
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold">Módulos</h2>
+          <h2 className="text-3xl sm:text-3xl lg:text-4xl font-heading font-bold">Módulos</h2>
           <p className="text-muted-foreground mt-2 text-lg">
             Veja o material que você receberá no <span className="text-gradient-gold font-semibold">GMN no TOPO</span>
           </p>
