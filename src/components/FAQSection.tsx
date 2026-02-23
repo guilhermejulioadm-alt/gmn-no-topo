@@ -23,7 +23,7 @@ const FAQSection = () => {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold">
+          <h2 className="text-3xl sm:text-3xl lg:text-4xl font-heading font-bold">
             Perguntas <span className="text-gradient-gold">Frequentes</span>
           </h2>
           <p className="text-muted-foreground mt-2">
