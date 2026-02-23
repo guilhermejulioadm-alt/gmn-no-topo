@@ -28,7 +28,7 @@ const AboutSection = () => {
             <span className="text-primary font-heading font-semibold text-sm uppercase tracking-wider">
               Quem sou eu?
             </span>
-            <h2 className="text-2xl sm:text-3xl font-heading font-bold mt-2 mb-4">
+            <h2 className="text-3xl sm:text-3xl font-heading font-bold mt-2 mb-4">
               Guilherme Júlio
             </h2>
             <p className="text-muted-foreground leading-relaxed text-sm">
