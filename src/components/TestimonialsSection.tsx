@@ -25,7 +25,7 @@ const TestimonialsSection = () => {
           <span className="text-primary font-heading font-semibold text-sm uppercase tracking-wider">
             Prova Social
           </span>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold mt-2">
+          <h2 className="text-3xl sm:text-3xl md:text-4xl font-heading font-bold mt-2">
             O que nossos alunos estão{" "}
             <span className="text-gradient-gold">dizendo</span>
           </h2>
