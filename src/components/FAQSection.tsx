@@ -43,7 +43,7 @@ const FAQSection = () => {
             >
               <button
                 onClick={() => setOpenIndex(openIndex === i ? null : i)}
-                className="w-full flex items-center justify-between p-5 text-left font-heading font-semibold text-sm sm:text-base hover:text-primary transition-colors"
+                className="w-full flex items-center justify-between p-5 text-left font-heading font-semibold text-base sm:text-base hover:text-primary transition-colors"
               >
                 {faq.q}
                 <ChevronDown
