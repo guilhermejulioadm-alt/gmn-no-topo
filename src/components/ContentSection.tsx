@@ -20,11 +20,11 @@ const ContentSection = () => {
           viewport={{ once: true }}
           className="text-center max-w-3xl mx-auto mb-14"
         >
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold mb-4">
+          <h2 className="text-3xl sm:text-3xl lg:text-4xl font-heading font-bold mb-4">
             Para extrair o máximo de resultado,{" "}
             <span className="text-gradient-gold">uma empresa precisa estar bem posicionada</span> no Google Meu Negócio.
           </h2>
-          <p className="text-muted-foreground text-lg">Nosso conteúdo te ajudará a:</p>
+          <p className="text-muted-foreground text-lg sm:text-lg">Nosso conteúdo te ajudará a:</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -38,8 +38,8 @@ const ContentSection = () => {
               className="glass-card rounded-xl p-6 hover:border-primary/40 transition-colors duration-300"
             >
               <f.icon className="w-8 h-8 text-primary mb-4" />
-              <h3 className="font-heading font-bold text-lg mb-2">{f.title}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">{f.desc}</p>
+              <h3 className="font-heading font-bold text-xl mb-2">{f.title}</h3>
+              <p className="text-base text-muted-foreground leading-relaxed">{f.desc}</p>
             </motion.div>
           ))}
         </div>

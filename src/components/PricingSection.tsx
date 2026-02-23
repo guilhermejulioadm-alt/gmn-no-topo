@@ -25,7 +25,7 @@ const PricingSection = () => {
             <ShieldCheck className="w-5 h-5 text-primary" />
             Compra 100% segura! Receba seu acesso imediatamente após a compra.
           </p>
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold">
+          <h2 className="text-3xl sm:text-3xl lg:text-4xl font-heading font-bold">
             Esse é o momento de acessar seu material completo
           </h2>
         </motion.div>
@@ -56,7 +56,7 @@ const PricingSection = () => {
             {items.map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                <span className="text-sm text-foreground/90">{item}</span>
+                <span className="text-base text-foreground/90">{item}</span>
               </li>
             ))}
           </ul>

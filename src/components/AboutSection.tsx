@@ -28,15 +28,15 @@ const AboutSection = () => {
             <span className="text-primary font-heading font-semibold text-sm uppercase tracking-wider">
               Quem sou eu?
             </span>
-            <h2 className="text-2xl sm:text-3xl font-heading font-bold mt-2 mb-4">
+            <h2 className="text-3xl sm:text-3xl font-heading font-bold mt-2 mb-4">
               Guilherme Júlio
             </h2>
-            <p className="text-muted-foreground leading-relaxed text-sm">
+            <p className="text-muted-foreground leading-relaxed text-base">
               Administrador e Analista de Marketing Digital, com mais de 3 anos no mercado. 
               Atendeu diversos clientes e projetos trazendo uma abordagem completa no digital 
               que engloba todo o fluxo para acelerar resultados online e off-line.
             </p>
-            <ul className="mt-4 space-y-2 text-sm text-foreground/80">
+            <ul className="mt-4 space-y-2 text-base text-foreground/80">
               <li>✦ Mais de 90 milhões faturados para clientes</li>
               <li>✦ Mais de 70 empresas atendidas</li>
               <li>✦ Mais de 2 milhões gerenciados em tráfego pago</li>

@@ -15,7 +15,7 @@ const MethodSection = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold text-center mb-14"
+          className="text-3xl sm:text-3xl lg:text-4xl font-heading font-bold text-center mb-14"
         >
           Como você vai colocar{" "}
           <span className="text-gradient-gold">GMN NO TOPO</span> com o meu método
@@ -34,8 +34,8 @@ const MethodSection = () => {
               <div className="w-20 h-20 mx-auto rounded-2xl bg-gradient-gold flex items-center justify-center mb-6 shadow-gold">
                 <s.icon className="w-10 h-10 text-primary-foreground" />
               </div>
-              <h3 className="font-heading font-bold text-xl mb-3">{s.title}</h3>
-              <p className="text-muted-foreground leading-relaxed">{s.desc}</p>
+              <h3 className="font-heading font-bold text-2xl mb-3">{s.title}</h3>
+              <p className="text-base text-muted-foreground leading-relaxed">{s.desc}</p>
             </motion.div>
           ))}
         </div>

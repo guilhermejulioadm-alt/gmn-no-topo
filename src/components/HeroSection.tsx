@@ -26,7 +26,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
-            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight"
+            className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight"
           >
             Fique no{" "}
             <span className="text-gradient-gold">TOPO</span> da sua{" "}
@@ -38,7 +38,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="mt-6 text-base sm:text-lg text-muted-foreground max-w-xl"
+            className="mt-6 text-lg sm:text-lg text-muted-foreground max-w-xl"
           >
             Transforme uma tarefa simples em uma renda consistente seguindo um passo a passo comprovado. Método criado por especialista em tráfego pago e aplicado por diversos empreendedores locais.
           </motion.p>

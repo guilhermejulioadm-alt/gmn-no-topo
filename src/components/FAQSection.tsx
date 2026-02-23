@@ -23,7 +23,7 @@ const FAQSection = () => {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold">
+          <h2 className="text-3xl sm:text-3xl lg:text-4xl font-heading font-bold">
             Perguntas <span className="text-gradient-gold">Frequentes</span>
           </h2>
           <p className="text-muted-foreground mt-2">
@@ -43,7 +43,7 @@ const FAQSection = () => {
             >
               <button
                 onClick={() => setOpenIndex(openIndex === i ? null : i)}
-                className="w-full flex items-center justify-between p-5 text-left font-heading font-semibold text-sm sm:text-base hover:text-primary transition-colors"
+                className="w-full flex items-center justify-between p-5 text-left font-heading font-semibold text-base sm:text-base hover:text-primary transition-colors"
               >
                 {faq.q}
                 <ChevronDown
@@ -60,7 +60,7 @@ const FAQSection = () => {
                     exit={{ height: 0, opacity: 0 }}
                     transition={{ duration: 0.3 }}
                   >
-                    <p className="px-5 pb-5 text-sm text-muted-foreground leading-relaxed">
+                    <p className="px-5 pb-5 text-base text-muted-foreground leading-relaxed">
                       {faq.a}
                     </p>
                   </motion.div>

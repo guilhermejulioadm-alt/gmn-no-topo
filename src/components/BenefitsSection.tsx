@@ -42,7 +42,7 @@ const BenefitsSection = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold text-center mb-4"
+          className="text-3xl sm:text-3xl lg:text-4xl font-heading font-bold text-center mb-4"
         >
           Após implementar o <span className="text-gradient-gold">GMN no TOPO</span>
         </motion.h2>
@@ -63,8 +63,8 @@ const BenefitsSection = () => {
               <div className="w-14 h-14 mx-auto rounded-full bg-primary/10 flex items-center justify-center mb-4">
                 <b.icon className="w-7 h-7 text-primary" />
               </div>
-              <h3 className="font-heading font-bold text-lg mb-2">{b.title}</h3>
-              <p className="text-sm text-muted-foreground">{b.description}</p>
+              <h3 className="font-heading font-bold text-xl mb-2">{b.title}</h3>
+              <p className="text-base text-muted-foreground">{b.description}</p>
             </motion.div>
           ))}
         </motion.div>
