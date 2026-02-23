@@ -17,6 +17,7 @@ const FooterSection = lazy(() => import("@/components/FooterSection"));
 const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+      <WhatsAppButton />
       <HeroSection />
       <Suspense fallback={null}>
         <LogoMarquee />
