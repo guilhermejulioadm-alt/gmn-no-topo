@@ -1,5 +1,6 @@
 import { lazy, Suspense } from "react";
 import HeroSection from "@/components/HeroSection";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const LogoMarquee = lazy(() => import("@/components/LogoMarquee"));
 const BenefitsSection = lazy(() => import("@/components/BenefitsSection"));
@@ -16,6 +17,7 @@ const FooterSection = lazy(() => import("@/components/FooterSection"));
 const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+      <WhatsAppButton />
       <HeroSection />
       <Suspense fallback={null}>
         <LogoMarquee />
