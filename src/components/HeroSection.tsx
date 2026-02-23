@@ -38,7 +38,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="mt-6 text-base sm:text-lg text-muted-foreground max-w-xl"
+            className="mt-6 text-lg sm:text-lg text-muted-foreground max-w-xl"
           >
             Transforme uma tarefa simples em uma renda consistente seguindo um passo a passo comprovado. Método criado por especialista em tráfego pago e aplicado por diversos empreendedores locais.
           </motion.p>

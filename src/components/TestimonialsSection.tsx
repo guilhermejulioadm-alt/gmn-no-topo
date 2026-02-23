@@ -29,7 +29,7 @@ const TestimonialsSection = () => {
             O que nossos alunos estão{" "}
             <span className="text-gradient-gold">dizendo</span>
           </h2>
-          <p className="text-muted-foreground mt-3 max-w-xl mx-auto text-sm sm:text-base">
+          <p className="text-muted-foreground mt-3 max-w-xl mx-auto text-base sm:text-base">
             Resultados reais de pessoas que aplicaram o método GMN no Topo.
           </p>
         </motion.div>

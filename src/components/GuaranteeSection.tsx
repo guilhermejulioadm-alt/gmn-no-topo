@@ -17,7 +17,7 @@ const GuaranteeSection = () => {
           <h2 className="text-3xl sm:text-3xl font-heading font-bold mb-4">
             Garantia incondicional de <span className="text-gradient-gold">7 dias</span>
           </h2>
-          <p className="text-muted-foreground leading-relaxed max-w-xl mx-auto">
+          <p className="text-base text-muted-foreground leading-relaxed max-w-xl mx-auto">
             Nós confiamos tanto na qualidade do Google Meu Negócio no TOPO que você terá 7 dias completos para testar o curso, aplicar os primeiros módulos e sentir na prática o impacto do conteúdo.
           </p>
           <p className="mt-4 text-sm text-primary font-semibold">

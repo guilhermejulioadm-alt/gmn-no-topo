@@ -36,7 +36,7 @@ const AboutSection = () => {
               Atendeu diversos clientes e projetos trazendo uma abordagem completa no digital 
               que engloba todo o fluxo para acelerar resultados online e off-line.
             </p>
-            <ul className="mt-4 space-y-2 text-sm text-foreground/80">
+            <ul className="mt-4 space-y-2 text-base text-foreground/80">
               <li>✦ Mais de 90 milhões faturados para clientes</li>
               <li>✦ Mais de 70 empresas atendidas</li>
               <li>✦ Mais de 2 milhões gerenciados em tráfego pago</li>

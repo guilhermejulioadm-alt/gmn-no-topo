@@ -39,7 +39,7 @@ const ModulesSection = () => {
               <div className="w-10 h-10 rounded-lg bg-primary/15 flex items-center justify-center shrink-0">
                 <BookOpen className="w-5 h-5 text-primary" />
               </div>
-              <span className="font-heading font-semibold text-sm">{m}</span>
+              <span className="font-heading font-semibold text-base">{m}</span>
             </motion.div>
           ))}
         </div>

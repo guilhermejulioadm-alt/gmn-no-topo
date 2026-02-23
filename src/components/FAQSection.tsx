@@ -60,7 +60,7 @@ const FAQSection = () => {
                     exit={{ height: 0, opacity: 0 }}
                     transition={{ duration: 0.3 }}
                   >
-                    <p className="px-5 pb-5 text-sm text-muted-foreground leading-relaxed">
+                    <p className="px-5 pb-5 text-base text-muted-foreground leading-relaxed">
                       {faq.a}
                     </p>
                   </motion.div>

@@ -56,7 +56,7 @@ const PricingSection = () => {
             {items.map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                <span className="text-sm text-foreground/90">{item}</span>
+                <span className="text-base text-foreground/90">{item}</span>
               </li>
             ))}
           </ul>

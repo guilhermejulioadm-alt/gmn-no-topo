@@ -63,8 +63,8 @@ const BenefitsSection = () => {
               <div className="w-14 h-14 mx-auto rounded-full bg-primary/10 flex items-center justify-center mb-4">
                 <b.icon className="w-7 h-7 text-primary" />
               </div>
-              <h3 className="font-heading font-bold text-lg mb-2">{b.title}</h3>
-              <p className="text-sm text-muted-foreground">{b.description}</p>
+              <h3 className="font-heading font-bold text-xl mb-2">{b.title}</h3>
+              <p className="text-base text-muted-foreground">{b.description}</p>
             </motion.div>
           ))}
         </motion.div>
