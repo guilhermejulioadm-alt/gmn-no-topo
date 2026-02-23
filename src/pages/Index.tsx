@@ -20,7 +20,7 @@ const Index = () => {
       <WhatsAppButton />
       <HeroSection />
       <Suspense fallback={null}>
-        <LogoMarquee />
+        
         <BenefitsSection />
         <ContentSection />
         <MethodSection />
