@@ -24,7 +24,7 @@ const ContentSection = () => {
             Para extrair o máximo de resultado,{" "}
             <span className="text-gradient-gold">uma empresa precisa estar bem posicionada</span> no Google Meu Negócio.
           </h2>
-          <p className="text-muted-foreground text-lg">Nosso conteúdo te ajudará a:</p>
+          <p className="text-muted-foreground text-lg sm:text-lg">Nosso conteúdo te ajudará a:</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
