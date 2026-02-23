@@ -31,7 +31,7 @@ const AboutSection = () => {
             <h2 className="text-3xl sm:text-3xl font-heading font-bold mt-2 mb-4">
               Guilherme Júlio
             </h2>
-            <p className="text-muted-foreground leading-relaxed text-sm">
+            <p className="text-muted-foreground leading-relaxed text-base">
               Administrador e Analista de Marketing Digital, com mais de 3 anos no mercado. 
               Atendeu diversos clientes e projetos trazendo uma abordagem completa no digital 
               que engloba todo o fluxo para acelerar resultados online e off-line.
