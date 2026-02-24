@@ -55,7 +55,7 @@ const HeroSection = () => {
               href={CTA_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-gradient-gold text-primary-foreground font-heading font-bold text-base sm:text-lg px-8 py-4 rounded-full shadow-gold animate-pulse-gold hover:bg-gradient-gold-hover transition-all duration-300 hover:scale-105"
+              className="inline-flex items-center gap-2 bg-gradient-gold text-primary-foreground font-heading font-bold text-base sm:text-lg px-8 py-4 rounded-full shadow-gold-sm hover:bg-gradient-gold-hover transition-transform duration-300 hover:scale-105"
             >
               QUERO ACESSAR O CURSO
               <ArrowRight className="w-5 h-5" />

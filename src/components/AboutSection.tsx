@@ -15,7 +15,11 @@ const AboutSection = () => {
             <img
               src={guilhermeFoto}
               alt="Guilherme Júlio"
+              width={384}
+              height={512}
               className="rounded-2xl shadow-gold-sm w-full max-w-sm mx-auto"
+              loading="lazy"
+              decoding="async"
             />
           </motion.div>
 
