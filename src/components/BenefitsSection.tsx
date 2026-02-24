@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Users, RefreshCw, ShoppingBag, TrendingUp } from "lucide-react";
+import cursoDeGoogle from "@/assets/curso-de-google.png";
 
 const benefits = [
   {
