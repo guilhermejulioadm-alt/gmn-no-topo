@@ -13,6 +13,8 @@ const HeroSection = () => {
           src={heroImage}
           alt="Guilherme Júlio - Especialista em Google Meu Negócio"
           className="w-full h-full object-cover object-top opacity-50"
+          width={1200}
+          height={1600}
           fetchPriority="high"
           decoding="async"
         />
