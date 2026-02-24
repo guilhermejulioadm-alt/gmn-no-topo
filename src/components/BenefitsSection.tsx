@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Users, RefreshCw, ShoppingBag, TrendingUp } from "lucide-react";
+import cursoDeGoogle from "@/assets/curso-de-google.png";
 
 const benefits = [
   {
@@ -38,6 +39,29 @@ const BenefitsSection = () => {
   return (
     <section className="section-padding">
       <div className="container mx-auto">
+        {/* Pergunta + Imagem */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mb-16"
+        >
+          <h2 className="text-3xl sm:text-3xl lg:text-4xl font-heading font-bold mb-2">
+            A pergunta é simples:
+          </h2>
+          <p className="text-2xl sm:text-2xl lg:text-3xl font-heading font-bold text-gradient-gold">
+            Sua empresa aparece… ou seu concorrente aparece?
+          </p>
+          <div className="mt-8 max-w-3xl mx-auto rounded-xl overflow-hidden shadow-lg border border-border/40">
+            <img
+              src={cursoDeGoogle}
+              alt="Resultado de busca no Google mostrando empresas locais"
+              className="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+        </motion.div>
+
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
