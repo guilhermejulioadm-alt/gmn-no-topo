@@ -47,8 +47,11 @@ const TestimonialsSection = () => {
               <img
                 src={t.src}
                 alt={t.alt}
+                width={400}
+                height={400}
                 className="w-full h-auto"
                 loading="lazy"
+                decoding="async"
               />
             </motion.div>
           ))}
