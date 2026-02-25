@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import guilhermeFoto from "@/assets/guilherme-foto.webp";
 
 const AboutSection = () => {
@@ -6,7 +6,7 @@ const AboutSection = () => {
     <section className="section-padding">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-5xl mx-auto">
-          <motion.div
+          <m.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -21,9 +21,9 @@ const AboutSection = () => {
               loading="lazy"
               decoding="async"
             />
-          </motion.div>
+          </m.div>
 
-          <motion.div
+          <m.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -56,7 +56,7 @@ const AboutSection = () => {
             >
               QUERO AUMENTAR MINHAS VENDAS!
             </a>
-          </motion.div>
+          </m.div>
         </div>
       </div>
     </section>

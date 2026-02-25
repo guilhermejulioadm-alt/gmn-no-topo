@@ -1,11 +1,11 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { ShieldCheck } from "lucide-react";
 
 const GuaranteeSection = () => {
   return (
     <section className="section-padding bg-secondary/30">
       <div className="container mx-auto max-w-3xl">
-        <motion.div
+        <m.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -23,7 +23,7 @@ const GuaranteeSection = () => {
           <p className="mt-4 text-sm text-primary font-semibold">
             Compra totalmente segura: Experimente sem riscos e cancele a qualquer momento!
           </p>
-        </motion.div>
+        </m.div>
       </div>
     </section>
   );

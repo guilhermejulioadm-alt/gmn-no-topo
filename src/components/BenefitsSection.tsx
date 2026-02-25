@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { Users, RefreshCw, ShoppingBag, TrendingUp } from "lucide-react";
 import cursoDeGoogle from "@/assets/curso-de-google.png";
 
@@ -39,8 +39,7 @@ const BenefitsSection = () => {
   return (
     <section className="section-padding">
       <div className="container mx-auto">
-        {/* Pergunta + Imagem */}
-        <motion.div
+        <m.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -57,21 +56,24 @@ const BenefitsSection = () => {
               src={cursoDeGoogle}
               alt="Resultado de busca no Google mostrando empresas locais"
               className="w-full h-auto"
+              width={800}
+              height={450}
               loading="lazy"
+              decoding="async"
             />
           </div>
-        </motion.div>
+        </m.div>
 
-        <motion.h2
+        <m.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className="text-3xl sm:text-3xl lg:text-4xl font-heading font-bold text-center mb-4"
         >
           Após implementar o <span className="text-gradient-gold">GMN no TOPO</span>
-        </motion.h2>
+        </m.h2>
 
-        <motion.div
+        <m.div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -79,7 +81,7 @@ const BenefitsSection = () => {
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12"
         >
           {benefits.map((b) => (
-            <motion.div
+            <m.div
               key={b.title}
               variants={itemVariants}
               className="glass-card rounded-xl p-6 text-center hover:border-primary/40 transition-colors duration-300"
@@ -89,9 +91,9 @@ const BenefitsSection = () => {
               </div>
               <h3 className="font-heading font-bold text-xl mb-2">{b.title}</h3>
               <p className="text-base text-muted-foreground">{b.description}</p>
-            </motion.div>
+            </m.div>
           ))}
-        </motion.div>
+        </m.div>
 
         <div className="text-center mt-12">
           <a
