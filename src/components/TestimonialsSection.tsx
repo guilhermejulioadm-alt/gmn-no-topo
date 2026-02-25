@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import depoimento1 from "@/assets/depoimento-1.webp";
 import depoimento2 from "@/assets/depoimento-2.webp";
 import depoimento3 from "@/assets/depoimento-3.png";
@@ -15,7 +15,7 @@ const TestimonialsSection = () => {
   return (
     <section className="section-padding">
       <div className="container mx-auto max-w-5xl">
-        <motion.div
+        <m.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -32,11 +32,11 @@ const TestimonialsSection = () => {
           <p className="text-muted-foreground mt-3 max-w-xl mx-auto text-base sm:text-base">
             Resultados reais de pessoas que aplicaram o método GMN no Topo.
           </p>
-        </motion.div>
+        </m.div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 justify-items-center">
           {testimonials.map((t, i) => (
-            <motion.div
+            <m.div
               key={i}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -53,7 +53,7 @@ const TestimonialsSection = () => {
                 loading="lazy"
                 decoding="async"
               />
-            </motion.div>
+            </m.div>
           ))}
         </div>
       </div>

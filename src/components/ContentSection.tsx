@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { Zap, UserCheck, Settings, MessageSquare, Video, Trophy } from "lucide-react";
 
 const features = [
@@ -14,7 +14,7 @@ const ContentSection = () => {
   return (
     <section className="section-padding bg-secondary/30">
       <div className="container mx-auto">
-        <motion.div
+        <m.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -25,11 +25,11 @@ const ContentSection = () => {
             <span className="text-gradient-gold">uma empresa precisa estar bem posicionada</span> no Google Meu Negócio.
           </h2>
           <p className="text-muted-foreground text-lg sm:text-lg">Nosso conteúdo te ajudará a:</p>
-        </motion.div>
+        </m.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((f, i) => (
-            <motion.div
+            <m.div
               key={f.title}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -40,7 +40,7 @@ const ContentSection = () => {
               <f.icon className="w-8 h-8 text-primary mb-4" />
               <h3 className="font-heading font-bold text-xl mb-2">{f.title}</h3>
               <p className="text-base text-muted-foreground leading-relaxed">{f.desc}</p>
-            </motion.div>
+            </m.div>
           ))}
         </div>
       </div>

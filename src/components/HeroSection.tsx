@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/guilherme-foto.webp";
 
@@ -24,7 +24,7 @@ const HeroSection = () => {
 
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="max-w-3xl mx-auto text-center sm:text-left sm:mx-0">
-          <motion.h1
+          <m.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
@@ -34,18 +34,18 @@ const HeroSection = () => {
             <span className="text-gradient-gold">TOPO</span> da sua{" "}
             <span className="text-gradient-gold">Região</span> e tenha{" "}
             <span className="text-gradient-gold">Clientes todos os dias!</span>
-          </motion.h1>
+          </m.h1>
 
-          <motion.p
+          <m.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
             className="mt-6 text-lg sm:text-lg text-muted-foreground max-w-xl"
           >
             Transforme uma tarefa simples em uma renda consistente seguindo um passo a passo comprovado. Método criado por especialista em tráfego pago e aplicado por diversos empreendedores locais.
-          </motion.p>
+          </m.p>
 
-          <motion.div
+          <m.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.4 }}
@@ -60,7 +60,7 @@ const HeroSection = () => {
               QUERO ACESSAR O CURSO
               <ArrowRight className="w-5 h-5" />
             </a>
-          </motion.div>
+          </m.div>
         </div>
       </div>
     </section>

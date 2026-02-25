@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { Check, ShieldCheck } from "lucide-react";
 
 const items = [
@@ -15,7 +15,7 @@ const PricingSection = () => {
   return (
     <section className="section-padding">
       <div className="container mx-auto">
-        <motion.div
+        <m.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -28,9 +28,9 @@ const PricingSection = () => {
           <h2 className="text-3xl sm:text-3xl lg:text-4xl font-heading font-bold">
             Esse é o momento de acessar seu material completo
           </h2>
-        </motion.div>
+        </m.div>
 
-        <motion.div
+        <m.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
@@ -69,7 +69,7 @@ const PricingSection = () => {
           >
             QUERO AUMENTAR MINHAS VENDAS!
           </a>
-        </motion.div>
+        </m.div>
       </div>
     </section>
   );

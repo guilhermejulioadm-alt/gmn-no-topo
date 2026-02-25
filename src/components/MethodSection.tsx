@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { Rocket, Palette, Gauge } from "lucide-react";
 
 const steps = [
@@ -11,7 +11,7 @@ const MethodSection = () => {
   return (
     <section className="section-padding">
       <div className="container mx-auto">
-        <motion.h2
+        <m.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -19,11 +19,11 @@ const MethodSection = () => {
         >
           Como você vai colocar{" "}
           <span className="text-gradient-gold">GMN NO TOPO</span> com o meu método
-        </motion.h2>
+        </m.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {steps.map((s, i) => (
-            <motion.div
+            <m.div
               key={s.title}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -36,7 +36,7 @@ const MethodSection = () => {
               </div>
               <h3 className="font-heading font-bold text-2xl mb-3">{s.title}</h3>
               <p className="text-base text-muted-foreground leading-relaxed">{s.desc}</p>
-            </motion.div>
+            </m.div>
           ))}
         </div>
 

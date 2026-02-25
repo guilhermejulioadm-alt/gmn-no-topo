@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { m, AnimatePresence } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 
 const faqs = [
@@ -17,7 +17,7 @@ const FAQSection = () => {
   return (
     <section className="section-padding bg-secondary/30">
       <div className="container mx-auto max-w-3xl">
-        <motion.div
+        <m.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -29,11 +29,11 @@ const FAQSection = () => {
           <p className="text-muted-foreground mt-2">
             Caso ainda tenha dúvidas, entre em contato conosco
           </p>
-        </motion.div>
+        </m.div>
 
         <div className="space-y-3">
           {faqs.map((faq, i) => (
-            <motion.div
+            <m.div
               key={i}
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -54,7 +54,7 @@ const FAQSection = () => {
               </button>
               <AnimatePresence>
                 {openIndex === i && (
-                  <motion.div
+                  <m.div
                     initial={{ height: 0, opacity: 0 }}
                     animate={{ height: "auto", opacity: 1 }}
                     exit={{ height: 0, opacity: 0 }}
@@ -63,10 +63,10 @@ const FAQSection = () => {
                     <p className="px-5 pb-5 text-base text-muted-foreground leading-relaxed">
                       {faq.a}
                     </p>
-                  </motion.div>
+                  </m.div>
                 )}
               </AnimatePresence>
-            </motion.div>
+            </m.div>
           ))}
         </div>
 
