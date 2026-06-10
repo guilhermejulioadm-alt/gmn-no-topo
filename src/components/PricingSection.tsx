@@ -44,10 +44,10 @@ const PricingSection = () => {
               Oferta Exclusiva
             </span>
             <div className="mt-3">
-              <span className="text-muted-foreground line-through text-lg">De R$147,90</span>
+              <span className="text-muted-foreground line-through text-lg">De R$197,90</span>
             </div>
             <div className="mt-1">
-              <span className="text-4xl sm:text-5xl font-heading font-extrabold text-gradient-gold">R$57,90</span>
+              <span className="text-4xl sm:text-5xl font-heading font-extrabold text-gradient-gold">R$97,00</span>
               <span className="text-muted-foreground ml-1">/à vista</span>
             </div>
           </div>
@@ -62,7 +62,7 @@ const PricingSection = () => {
           </ul>
 
           <a
-            href="https://pay.kiwify.com.br/YK3cDFM"
+            href="https://pay.kiwify.com.br/rDcrbM5"
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full text-center bg-gradient-gold text-primary-foreground font-heading font-bold py-4 rounded-full shadow-gold hover:scale-105 transition-transform duration-300"
