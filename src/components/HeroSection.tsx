@@ -1,6 +1,6 @@
 import { m } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import guilhermeMestre from "@/assets/guilherme-mestre.jpeg.asset.json";
+import guilhermeFoto from "@/assets/guilherme-foto.webp";
 
 const HeroSection = () => {
   const scrollToPricing = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -32,10 +32,10 @@ const HeroSection = () => {
             className="w-full max-w-sm sm:max-w-md"
           >
             <img
-              src={guilhermeMestre.url}
-              alt="Guilherme Júlio - Mestre Subido PRO 2025"
-              width={1080}
-              height={1620}
+              src={guilhermeFoto}
+              alt="Guilherme Júlio"
+              width={384}
+              height={512}
               fetchPriority="high"
               decoding="async"
               className="w-full h-auto rounded-2xl shadow-gold"

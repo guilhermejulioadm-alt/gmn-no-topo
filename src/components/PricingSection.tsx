@@ -62,7 +62,7 @@ const PricingSection = () => {
           </ul>
 
           <a
-            href="https://pay.kiwify.com.br/rDcrbM5"
+            href="https://pay.hotmart.com/O104312378B"
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full text-center bg-gradient-gold text-primary-foreground font-heading font-bold py-4 rounded-full shadow-gold hover:scale-105 transition-transform duration-300"

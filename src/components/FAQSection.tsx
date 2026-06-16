@@ -72,7 +72,7 @@ const FAQSection = () => {
 
         <div className="text-center mt-10">
           <a
-            href="https://pay.kiwify.com.br/rDcrbM5"
+            href="https://pay.hotmart.com/O104312378B"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-gradient-gold text-primary-foreground font-heading font-bold px-8 py-4 rounded-full shadow-gold hover:scale-105 transition-transform duration-300"
