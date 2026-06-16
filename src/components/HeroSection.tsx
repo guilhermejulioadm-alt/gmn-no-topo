@@ -1,29 +1,18 @@
 import { m } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import heroImage from "@/assets/guilherme-foto.webp";
-
-const CTA_URL = "https://pay.kiwify.com.br/rDcrbM5";
+import guilhermeMestre from "@/assets/guilherme-mestre.jpeg.asset.json";
 
 const HeroSection = () => {
+  const scrollToPricing = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
   return (
-    <section className="relative min-h-screen flex items-end pb-16 sm:items-center sm:pb-0 overflow-hidden">
-      {/* Background image */}
-      <div className="absolute inset-0">
-        <img
-          src={heroImage}
-          alt="Guilherme Júlio - Especialista em Google Meu Negócio"
-          className="w-full h-full object-cover object-top opacity-50"
-          width={1200}
-          height={1600}
-          fetchPriority="high"
-          decoding="async"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-background/40" />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/50 to-background/70" />
-      </div>
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-background">
+      <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-background to-background" />
 
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="max-w-3xl mx-auto text-center sm:text-left sm:mx-0">
+        <div className="max-w-4xl mx-auto flex flex-col items-center text-center gap-8">
           <m.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -36,25 +25,31 @@ const HeroSection = () => {
             <span className="text-gradient-gold">Clientes todos os dias!</span>
           </m.h1>
 
-          <m.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+          <m.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="mt-6 text-lg sm:text-lg text-muted-foreground max-w-xl"
+            className="w-full max-w-sm sm:max-w-md"
           >
-            Transforme uma tarefa simples em uma renda consistente seguindo um passo a passo comprovado. Método criado por especialista em tráfego pago e aplicado por diversos empreendedores locais.
-          </m.p>
+            <img
+              src={guilhermeMestre.url}
+              alt="Guilherme Júlio - Mestre Subido PRO 2025"
+              width={1080}
+              height={1620}
+              fetchPriority="high"
+              decoding="async"
+              className="w-full h-auto rounded-2xl shadow-gold"
+            />
+          </m.div>
 
           <m.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.4 }}
-            className="mt-8"
           >
             <a
-              href={CTA_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#pricing"
+              onClick={scrollToPricing}
               className="inline-flex items-center gap-2 bg-gradient-gold text-primary-foreground font-heading font-bold text-base sm:text-lg px-8 py-4 rounded-full shadow-gold-sm hover:bg-gradient-gold-hover transition-transform duration-300 hover:scale-105"
             >
               QUERO ACESSAR O CURSO

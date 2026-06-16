@@ -13,7 +13,7 @@ const items = [
 
 const PricingSection = () => {
   return (
-    <section className="section-padding">
+    <section id="pricing" className="section-padding scroll-mt-20">
       <div className="container mx-auto">
         <m.div
           initial={{ opacity: 0, y: 20 }}
