@@ -25,6 +25,15 @@ const HeroSection = () => {
             <span className="text-gradient-gold">Clientes todos os dias!</span>
           </m.h1>
 
+          <m.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.15 }}
+            className="text-lg sm:text-xl md:text-2xl text-muted-foreground font-body max-w-2xl"
+          >
+            Transforme uma tarefa simples em uma renda consistente seguindo um passo a passo comprovado.
+          </m.p>
+
           <m.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
