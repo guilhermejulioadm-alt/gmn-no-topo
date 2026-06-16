@@ -99,3 +99,7 @@
     contain-intrinsic-size: auto 600px;
   }
 }
+
+#lovable-badge {
+  display: none !important;
+}
