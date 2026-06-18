@@ -1,5 +1,6 @@
 import { m } from "framer-motion";
-import guilhermeFoto from "@/assets/guilherme-foto.webp";
+import gmnMestre from "@/assets/gmn-mestre.jpeg.asset.json";
+import gmnSobral from "@/assets/gmn-sobral.png.asset.json";
 
 const AboutSection = () => {
   return (
@@ -11,13 +12,23 @@ const AboutSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
+            className="grid grid-cols-1 gap-4"
           >
             <img
-              src={guilhermeFoto}
-              alt="Guilherme Júlio"
-              width={384}
-              height={512}
-              className="rounded-2xl shadow-gold-sm w-full max-w-sm mx-auto"
+              src={gmnMestre.url}
+              alt="Guilherme Júlio - Mestre Subido PRO 2025"
+              width={600}
+              height={800}
+              className="rounded-2xl shadow-gold-sm w-full"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src={gmnSobral.url}
+              alt="Guilherme Júlio com Sobral - 3º lugar Campeonato Subido PRO"
+              width={600}
+              height={600}
+              className="rounded-2xl shadow-gold-sm w-full"
               loading="lazy"
               decoding="async"
             />
@@ -49,7 +60,7 @@ const AboutSection = () => {
             </ul>
 
             <a
-              href="https://pay.hotmart.com/O104312378B"
+              href="https://pay.kiwify.com.br/rDcrbM5"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-gradient-gold text-primary-foreground font-heading font-bold px-8 py-4 rounded-full shadow-gold hover:scale-105 transition-transform duration-300 mt-6"
