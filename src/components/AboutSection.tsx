@@ -1,5 +1,6 @@
 import { m } from "framer-motion";
-import guilhermeFoto from "@/assets/guilherme-foto.webp";
+import gmnMestre from "@/assets/gmn-mestre.jpeg.asset.json";
+import gmnSobral from "@/assets/gmn-sobral.png.asset.json";
 
 const AboutSection = () => {
   return (
@@ -11,13 +12,23 @@ const AboutSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
+            className="grid grid-cols-1 gap-4"
           >
             <img
-              src={guilhermeFoto}
-              alt="Guilherme Júlio"
-              width={384}
-              height={512}
-              className="rounded-2xl shadow-gold-sm w-full max-w-sm mx-auto"
+              src={gmnMestre.url}
+              alt="Guilherme Júlio - Mestre Subido PRO 2025"
+              width={600}
+              height={800}
+              className="rounded-2xl shadow-gold-sm w-full"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src={gmnSobral.url}
+              alt="Guilherme Júlio com Sobral - 3º lugar Campeonato Subido PRO"
+              width={600}
+              height={600}
+              className="rounded-2xl shadow-gold-sm w-full"
               loading="lazy"
               decoding="async"
             />
