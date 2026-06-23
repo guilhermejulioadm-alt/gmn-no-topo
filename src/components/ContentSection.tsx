@@ -1,12 +1,12 @@
 import { m } from "framer-motion";
-import { Zap, UserCheck, Settings, MessageSquare, Video, Trophy } from "lucide-react";
+import { Zap, UserCheck, Settings, MessageSquare, Users, Trophy } from "lucide-react";
 
 const features = [
   { icon: Zap, title: "Acesso imediato às aulas", desc: "Assim que sua inscrição for confirmada, você já recebe acesso completo à plataforma e pode começar a assistir às aulas sem esperar." },
   { icon: UserCheck, title: "Garantia de 7 dias", desc: "Você tem 7 dias inteiros para assistir, aplicar o conteúdo e decidir se o curso é realmente para você. Se não ficar satisfeito, devolvemos 100% do seu investimento." },
   { icon: Settings, title: "1 ano de acesso ao curso", desc: "Estude no seu ritmo! Você terá 12 meses para rever as aulas quantas vezes quiser e consolidar seu aprendizado." },
-  { icon: MessageSquare, title: "Comunidade e suporte no WhatsApp", desc: "Participe de um grupo exclusivo para trocar experiências, tirar dúvidas e receber insights valiosos." },
-  { icon: Video, title: "Suporte no Zoom", desc: "Encontros pelo Zoom para tirar dúvidas ao vivo e receber orientações personalizadas." },
+  { icon: MessageSquare, title: "Suporte no WhatsApp", desc: "Participe de um grupo exclusivo para trocar experiências, tirar dúvidas e receber insights valiosos." },
+  { icon: Users, title: "Grupo VIP para membros", desc: "Acesso a um grupo exclusivo de membros VIP com conteúdos extras, networking e acompanhamento especial." },
   { icon: Trophy, title: "Resultados Reais", desc: "Nossos alunos já estão conquistando posições de destaque no Google, atraindo clientes diariamente." },
 ];
 
