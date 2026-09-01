@@ -1,6 +1,6 @@
 import { m } from "framer-motion";
 import { Users, RefreshCw, ShoppingBag, TrendingUp } from "lucide-react";
-import gmnPerfil from "@/assets/gmn-perfil.jpg";
+import concorrenteGoogle from "@/assets/concorrente-google.webp.asset.json";
 
 const benefits = [
   {
@@ -53,11 +53,11 @@ const BenefitsSection = () => {
           </p>
           <div className="mt-8 max-w-3xl mx-auto rounded-xl overflow-hidden shadow-lg border border-border/40">
             <img
-              src={gmnPerfil}
-              alt="Perfil de empresa no Google Meu Negócio com avaliação 5 estrelas"
+              src={concorrenteGoogle.url}
+              alt="Homem preocupado vendo no celular que sua empresa não aparece no Google enquanto o concorrente aparece com avaliação 4,8 estrelas"
               className="w-full h-auto"
-              width={1280}
-              height={720}
+              width={1448}
+              height={1086}
               loading="lazy"
               decoding="async"
             />
