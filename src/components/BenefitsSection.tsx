@@ -1,6 +1,6 @@
 import { m } from "framer-motion";
 import { Users, RefreshCw, ShoppingBag, TrendingUp } from "lucide-react";
-import cursoDeGoogle from "@/assets/curso-de-google.png";
+import gmnPerfil from "@/assets/gmn-perfil.jpg";
 
 const benefits = [
   {
@@ -53,11 +53,11 @@ const BenefitsSection = () => {
           </p>
           <div className="mt-8 max-w-3xl mx-auto rounded-xl overflow-hidden shadow-lg border border-border/40">
             <img
-              src={cursoDeGoogle}
-              alt="Resultado de busca no Google mostrando empresas locais"
+              src={gmnPerfil}
+              alt="Perfil de empresa no Google Meu Negócio com avaliação 5 estrelas"
               className="w-full h-auto"
-              width={800}
-              height={450}
+              width={1280}
+              height={720}
               loading="lazy"
               decoding="async"
             />

@@ -1,6 +1,6 @@
 import { m } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import guilhermeFoto from "@/assets/guilherme-foto.webp";
+import gmnRankGoogle from "@/assets/gmn-rank-google.webp";
 
 const HeroSection = () => {
   const scrollToPricing = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -38,13 +38,13 @@ const HeroSection = () => {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="w-full max-w-sm sm:max-w-md"
+            className="w-full max-w-2xl"
           >
             <img
-              src={guilhermeFoto}
-              alt="Guilherme Júlio"
-              width={384}
-              height={512}
+              src={gmnRankGoogle}
+              alt="Empresa ranqueada no topo do Google Meu Negócio"
+              width={805}
+              height={470}
               fetchPriority="high"
               decoding="async"
               className="w-full h-auto rounded-2xl shadow-gold"
