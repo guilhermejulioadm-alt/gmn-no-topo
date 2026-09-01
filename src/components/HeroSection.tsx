@@ -41,7 +41,7 @@ const HeroSection = () => {
             className="w-full max-w-2xl"
           >
             <img
-              src={gmnRankGoogle.url}
+              src={gmnRankGoogle}
               alt="Empresa ranqueada no topo do Google Meu Negócio"
               width={805}
               height={470}
