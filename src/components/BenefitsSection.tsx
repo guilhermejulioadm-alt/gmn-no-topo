@@ -1,6 +1,6 @@
 import { m } from "framer-motion";
 import { Users, RefreshCw, ShoppingBag, TrendingUp } from "lucide-react";
-import gmnPerfil from "@/assets/gmn-perfil.jpg";
+import concorrenteGoogle from "@/assets/concorrente-google.webp.asset.json";
 
 const benefits = [
   {
