@@ -1,3 +1,5 @@
+import { m } from "framer-motion";
+import { ArrowRight } from "lucide-react";
 import gmnRankGoogle from "@/assets/gmn-rank-google.png.asset.json";
 
 const HeroSection = () => {
