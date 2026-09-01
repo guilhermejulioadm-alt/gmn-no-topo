@@ -1,6 +1,4 @@
-import { m } from "framer-motion";
-import { ArrowRight } from "lucide-react";
-import guilhermeFoto from "@/assets/guilherme-foto.webp";
+import gmnRankGoogle from "@/assets/gmn-rank-google.png.asset.json";
 
 const HeroSection = () => {
   const scrollToPricing = (e: React.MouseEvent<HTMLAnchorElement>) => {
