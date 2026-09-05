@@ -1,5 +1,5 @@
 import { m } from "framer-motion";
-import { Users, RefreshCw, ShoppingBag, TrendingUp } from "lucide-react";
+import { Users } from "lucide-react";
 import concorrenteGoogle from "@/assets/concorrente-google.webp.asset.json";
 
 const benefits = [
@@ -7,21 +7,6 @@ const benefits = [
     icon: Users,
     title: "Clientes Todos os Dias",
     description: "Estar no Google significa receber ligações, mensagens e visitas diariamente.",
-  },
-  {
-    icon: RefreshCw,
-    title: "Retenção e Renovação",
-    description: "Garanta maior taxa de fidelização e contratos renovados com facilidade.",
-  },
-  {
-    icon: ShoppingBag,
-    title: "Mais Produtos na Esteira",
-    description: "Amplie sua oferta com novos serviços ligados ao Google Meu Negócio.",
-  },
-  {
-    icon: TrendingUp,
-    title: "ROI e CAC Otimizados",
-    description: "Melhore os resultados gerais dos seus clientes, reduzindo custos e aumentando lucros.",
   },
 ];
 
@@ -78,7 +63,7 @@ const BenefitsSection = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12"
+          className="grid grid-cols-1 gap-6 mt-12 max-w-md mx-auto"
         >
           {benefits.map((b) => (
             <m.div
