@@ -1,5 +1,5 @@
 import { m } from "framer-motion";
-import { Users } from "lucide-react";
+import { Users, RefreshCw, MapPin } from "lucide-react";
 import concorrenteGoogle from "@/assets/concorrente-google.webp.asset.json";
 
 const benefits = [
@@ -7,6 +7,16 @@ const benefits = [
     icon: Users,
     title: "Clientes Todos os Dias",
     description: "Estar no Google significa receber ligações, mensagens e visitas diariamente.",
+  },
+  {
+    icon: RefreshCw,
+    title: "Clientes que voltam sempre",
+    description: "Fidelize sua base e mantenha a agenda cheia mês após mês, sem depender só de indicação.",
+  },
+  {
+    icon: MapPin,
+    title: "Autoridade no seu bairro",
+    description: "Seja o primeiro nome lembrado quando alguém da sua região precisar do seu serviço.",
   },
 ];
 
