@@ -7,7 +7,8 @@ const modules = [
   "O Hack para o Topo do Google",
   "Principais Erros de Bloqueio do GMN",
   "PDFs Úteis e Grupo VIP",
-  "Bônus - Automação GMN",
+  "Bônus 01 - Automação GMN",
+  "Bônus 02 - Técnica pro Chat GPT indicar seu produto ou serviço",
 ];
 
 const ModulesSection = () => {
