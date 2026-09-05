@@ -20,8 +20,8 @@ const Index = () => {
       <Suspense fallback={null}>
         
         <BenefitsSection />
-        <ContentSection />
         <MethodSection />
+        <ContentSection />
         <TestimonialsSection />
         <ModulesSection />
         <PricingSection />
