@@ -8,7 +8,7 @@ const faqs = [
   { q: "O curso tem suporte para tirar dúvidas?", a: "Temos um grupo no WhatsApp com os alunos e o nosso pessoal de suporte." },
   { q: "Como receberei o acesso ao curso?", a: "Você receberá um e-mail com o link de acesso ao curso imediatamente após a realização do pagamento." },
   { q: "Quais são as formas de pagamento?", a: "A aquisição do curso pode ser feita através de cartão de crédito em até 12x, no Pix ou boleto bancário." },
-  { q: "Por quanto tempo eu terei acesso ao curso?", a: "Acesso por 365 dias, 1 ano." },
+  { q: "Por quanto tempo eu terei acesso ao curso?", a: "Acesso vitalício." },
 ];
 
 const FAQSection = () => {
