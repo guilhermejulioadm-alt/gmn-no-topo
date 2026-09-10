@@ -5,7 +5,7 @@ import gmnRankGoogle from "@/assets/gmn-rank-google.webp";
 const HeroSection = () => {
   const scrollToPricing = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
-    document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    document.getElementById("preco")?.scrollIntoView({ behavior: "smooth", block: "center" });
   };
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-background">
@@ -57,7 +57,7 @@ const HeroSection = () => {
             transition={{ duration: 0.7, delay: 0.4 }}
           >
             <a
-              href="#pricing"
+              href="#preco"
               onClick={scrollToPricing}
               className="inline-flex items-center gap-2 bg-gradient-gold text-primary-foreground font-heading font-bold text-base sm:text-lg px-8 py-4 rounded-full shadow-gold-sm hover:bg-gradient-gold-hover transition-transform duration-300 hover:scale-105"
             >
