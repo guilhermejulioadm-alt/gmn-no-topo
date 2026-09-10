@@ -39,11 +39,11 @@ const PricingSection = () => {
         >
           <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-gold" />
           
-          <div className="text-center mb-6">
+          <div id="preco" className="text-center mb-6">
             <span className="text-sm font-heading font-semibold text-primary uppercase tracking-wider">
               Oferta Exclusiva
             </span>
-            <div id="preco" className="mt-3">
+            <div className="mt-3">
               <span className="text-muted-foreground line-through text-lg">De R$197,90</span>
             </div>
             <div className="mt-1">

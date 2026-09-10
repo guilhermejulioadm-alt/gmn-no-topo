@@ -5,7 +5,7 @@ import gmnRankGoogle from "@/assets/gmn-rank-google.webp";
 const HeroSection = () => {
   const scrollToPricing = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
-    document.getElementById("preco")?.scrollIntoView({ behavior: "smooth", block: "center" });
+    document.getElementById("preco")?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-background">
