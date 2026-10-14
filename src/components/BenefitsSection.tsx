@@ -1,5 +1,5 @@
 import { m } from "framer-motion";
-import { Users, RefreshCw, MapPin } from "lucide-react";
+import { Users, RefreshCw, MapPin, Sparkles } from "lucide-react";
 import concorrenteGoogle from "@/assets/concorrente-google.webp.asset.json";
 
 const benefits = [
@@ -17,6 +17,11 @@ const benefits = [
     icon: MapPin,
     title: "Autoridade no seu bairro",
     description: "Seja o primeiro nome lembrado quando alguém da sua região precisar do seu serviço.",
+  },
+  {
+    icon: Sparkles,
+    title: "Recomendado pela IA",
+    description: "Sua empresa passa a ser recomendada pelo ChatGPT e pelo Gemini, a IA do Google.",
   },
 ];
 
