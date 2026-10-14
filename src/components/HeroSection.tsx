@@ -5,7 +5,19 @@ import gmnRankGoogle from "@/assets/gmn-rank-google.webp";
 const HeroSection = () => {
   const scrollToPricing = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
-    document.getElementById("preco")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    const el = document.getElementById("preco");
+    if (!el) return;
+    const align = (smooth: boolean) => {
+      const y = el.getBoundingClientRect().top + window.scrollY - 8;
+      window.scrollTo({ top: y, behavior: smooth ? "smooth" : "auto" });
+    };
+    align(true);
+    // Lazy sections above keep expanding while scrolling (content-visibility),
+    // which shifts the final position — re-align once the layout settles.
+    window.setTimeout(() => {
+      const off = el.getBoundingClientRect().top - 8;
+      if (Math.abs(off) > 4) align(false);
+    }, 900);
   };
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-background">
